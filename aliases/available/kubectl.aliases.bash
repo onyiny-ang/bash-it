@@ -9,15 +9,15 @@ about-alias 'kubectl aliases'
 function _set_pkg_aliases()
 {
 	if [ -x $(which kubectl) ]; then
-		alias kc='kubectl'
-		alias kcgp='kubectl get pods'
-    alias kcgd='kubectl get deployments'
-    alias kcgn='kubectl get nodes'
-    alias kcdp='kubectl describe pod'
-    alias kcdd='kubectl describe deployment'
-    alias kcdn='kubectl describe node'
-    alias kcgpan='kubectl get pods --all-namespaces'
-    alias kcgdan='kubectl get deployments --all-namespaces'
+		alias k8='kubectl'
+		alias k8p='kubectl get pods'
+    alias k8d='kubectl get deployments'
+    alias k8n='kubectl get nodes'
+    alias k8dp='kubectl describe pod'
+    alias k8dd='kubectl describe deployment'
+    alias k8dn='kubectl describe node'
+    alias k8pan='kubectl get pods --all-namespaces'
+    alias k8dan='kubectl get deployments --all-namespaces'
 	fi
 }
 
